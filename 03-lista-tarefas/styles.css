@@ -1,0 +1,46 @@
+body{
+	margin: 0;
+}
+
+section{
+	width: 100%;
+	max-width: 1000px;
+	margin: auto;
+}
+
+div{
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+input, button {
+	padding: 15px;
+	border: 1px solid #aaa;
+	border-radius: 10px;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+input{
+	width: 70%;
+}
+
+button{
+	color: white;
+	width: 15%;
+}
+
+ul{
+	padding-left: 50px;
+}
+
+li {
+    font-size: 45px;
+    list-style-type: lao;
+    color: #aaa;
+    padding: 12px;
+    transition: linear 300ms;
+    transform: translateX(-50%);
+		cursor: pointer;
+}

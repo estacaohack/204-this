@@ -1,0 +1,29 @@
+<!--
+	Exemplo de uso do 'this' e 'addEventListener' para adicionar funcionaldiade
+	em elementos HTML criados dinamicamente através do Javascript.
+
+	Essa página permite a criação de tarefas em uma lista. Ao clicar em uma
+	tarefa, essa fica marcada como feita. Ao clicar novamente, a tarefa é
+	removida da lista.
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Lista de Tarefas</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<section>
+		<div>
+			<input type="text">
+			<button onclick="adicionarItem()">OK</button>
+		</div>
+
+		<ul></ul>
+	</section>
+
+	<script src="scripts.js"></script>
+</body>
+</html>
